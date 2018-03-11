@@ -35,6 +35,14 @@ $ rails test
 
 ```
 $ rails server
+$ rails server -b $IP -p $PORT
+```
+
+Ruby記述やDBの状態確認用にコンソールを使用します。
+
+```
+$ rails console
+
 ```
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
