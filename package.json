@@ -1,5 +1,7 @@
 {
   "name": "firstclimb-site",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "cli-engine-config": "^3.5.0"
+  }
 }
