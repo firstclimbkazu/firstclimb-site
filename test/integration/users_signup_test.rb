@@ -24,6 +24,7 @@ test "invalid signup information" do
     end
     follow_redirect!
     assert_template 'users/show'
+    assert is_logged_in?
     assert_not flash.nil?
     assert_select "div.alert.alert-success"
   end
